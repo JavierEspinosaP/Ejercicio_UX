@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
 
 .login-comp{
-<<<<<<< HEAD
-    background-image: url(../../../public/BG_formulario.png);
+    background-image: url('../../../public/BG_formulario.png');
     width: 360px;
     height: 674px;
-    margin-top: -46px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center
-=======
+    justify-content: center;
 
     &>Form{
-        height: 742px;
-        width: 361px;
+        height: 674px;
+        width: 360px;
         display:flex;
         flex-flow: column nowrap;
         justify-content: space-evenly;
@@ -131,7 +129,7 @@
         width: 152px;
         height: 70px;
         left: 100px;
-        top: 648px;
+        top: 580px;
         background: #030303;
 
         font-family: 'Roboto';
@@ -143,5 +141,5 @@
         text-align: right;
         color: #FCFCFC;
     }
->>>>>>> c208333eb5d3e16e929a20db43d5f999dd0b9313
+
 }
