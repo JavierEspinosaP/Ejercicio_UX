@@ -5,7 +5,7 @@ import Login from './Login'
 
 class Main extends Component {
   render() {
-    return <div>
+    return <div className="main">
       <Routes>
         <Route element={<Login/>} path={"/"}/>
         <Route element={<Form/>} path={"/form"}/>        
